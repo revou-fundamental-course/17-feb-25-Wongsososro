@@ -1,3 +1,5 @@
+<!-- https://github.com/revou-fundamental-course/17-feb-25-Wongsososro -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,17 +12,139 @@
 <body>
     <!-- header/navigasi -->
      <header>
-        
+        <div class="header">
+            <div class="logo">
+                <h2><a href="">Sumber Group</a></h2>
+            </div>
+            <div class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#our_packages" class="nav-link">Our Packages</a>
+            <a href="#call_us" class="nav-link">Call Us</a>
+            </div>
+        </div>
+        <hr>
      </header>
 
-     <!-- main -->
-      <main>
 
+     <!-- main -->
+      <main id="home">
+        <h1 class="main-title">Cepat, Aman, Dan Terpercaya</h1>
+        <p class="main-par">Kepuasan pelanggan yang utama.</p>
+        <div class="container-main">
+            <div class="container-info">
+                <div class="review-card">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="assets/asset1.jpg" alt="" class="comment" width="100%">
+                            <img src="assets/asset4.jpg" alt="" class="comment" width="100%">
+                            <img src="assets/asset5.jpg" alt="" class="comment" width="100%">
+                        </div>
+                    </div>
+                    <p class="info">"Review bagus dari pengguna"</p>
+                    <div class="user-acc">
+                        <img src="" alt="" class="profile" height="50px" width="50px">
+                        <div>
+                            <p class="username">brian putra</p>
+                            <p class="info">mini project sefc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <p class="benefit-info">Benefit dari memakai jasa kami</p>
+                    <ul class="benefit-ul">
+                        <li class="benefit-li">
+                            <h3 class="li-num">1</h3>
+                            <p class="li-item">Benefit yang pertama</p>
+                        </li>
+                        <li class="benefit-li">
+                            <h3 class="li-num">2</h3>
+                            <p class="li-item">Benefit yang kedua</p>
+                        </li>
+                        <li class="benefit-li">
+                            <h3 class="li-num">3</h3>
+                            <p class="li-item">Benefit yang ketiga</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact" id="call_us">
+                <h3>Contact Us</h3>
+                <p>Tim kami akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                <br><br><br>
+                <form action="" method="post" class="contact-form">
+                    <label for="">Your Name:</label>
+                    <br>
+                    <input type="text" name="" id="" class="input" placeholder="First and lasst name" required>
+                    <br><br>
+                    <label for="">Your Address:</label>
+                    <br>
+                    <input type="email" name="" id="" class="input" placeholder="example@gmail.com"required>
+                    <br><br>
+                    <label for="">What are you interested in?</label>
+                    <br>
+                    <select name="" id="" class="input" required>
+                        <option value="">option a</option>
+                        <option value="">option b</option>
+                        <option value="">option c</option>
+                    </select>
+                    <br><br>
+                    <button type="submit" class="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="container-packages" id="our_packages">
+            <div class="packages-title">
+                <h1>Our Package</h1>
+            </div>
+            <div class="packages">  
+                <div class="container-package">
+                    <img src="" alt="" class="profile" height="30px" width="30px">
+                    <div>
+                        <p class="package-title">Ekonomi 1</p>
+                        <p class="desc-package">Deskripsi Ekonomi 1</p>
+                    </div>
+                </div>
+                <div class="container-package">
+                    <img src="" alt="" class="profile" height="30px" width="30px">
+                    <div>
+                        <p class="package-title">Ekonomi 2</p>
+                        <p class="desc-package">Deskripsi Ekonomi 2</p>
+                    </div>
+                </div>
+                <div class="container-package">
+                    <img src="" alt="" class="profile" height="30px" width="30px">
+                    <div>
+                        <p class="package-title">Bisnis 1</p>
+                        <p class="desc-package">Deskripsi Bisnis 1</p>
+                    </div>
+                </div>
+                <div class="container-package">
+                    <img src="" alt="" class="profile" height="30px" width="30px">
+                    <div>
+                        <p class="package-title">Bisnis 2</p>
+                        <p class="desc-package">Deskripsi Bisnis 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
       </main>
 
       <!-- footer -->
        <footer>
-
+            <hr>
+            <div class="container-footer">
+                <h1>PO Sumber Group</h1>
+                <p>Deskripsi Perusahaan Otobus Sumber Group</p>
+                <button type="submit" class="button-footer">Call To Action</button>
+            </div>
+            <hr>
+            <div class="closing">
+                <h2>Sumber Group</h2>
+                <p>Terms of Service Privacy Policy</p>
+                <p>&copy; 2025 Sumber Group</p>
+            </div>
        </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
