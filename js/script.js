@@ -17,4 +17,4 @@ let currentIndex = 0;
         currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
         updateCarousel();
     }
-    setInterval(nextSlide, 3000);
+    setInterval(nextSlide, 3000); 
